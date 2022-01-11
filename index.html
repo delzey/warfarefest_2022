@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SXSW Warfare Fest Initiative 2022</title>
+    <meta name="author" content="SXSW Warfare Fest Initiative 2022" />
+    <meta name="description" content="fullPage full-screen autoplay videos and audio." />
+    <meta name="keywords"  content="fullpage,jquery,demo,autoplay,video,audio,html5,paluse" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <style>
+    .intro p{
+        color: #000;
+    }
+    </style>
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+<body>
+<div id="fullpage">
+    <div class="section intro">
+        <div align="center"><img alt="WarfareFest" height="705" src="https://storage.googleapis.com/wzsitethumbnails/site-49633731/800x500.jpg" /></div>
+    </div>
+    <div class="section intro">
+      <iframe width="1254" height="705" src="https://www.youtube.com/embed/hzLuyLofkhI?list=PLd0f_k9f2CzUtShhXcocYaPUkwMv4vkcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="section">
+        <div align="center"><img alt="WarfareFest" src="mission.jpg"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="dist/fullpage.js"></script>
+<script type="text/javascript" src="examples.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#f2f2f2', '#1BBC9B', '#7E8F7C'],
+        anchors: ['firstPage', 'secondPage', '3rdPage']
+    });
+</script>
+
+</body>
+</html>
